@@ -5,4 +5,4 @@ services:
       - "6000:80"
     image: "723383019207.dkr.ecr.us-east-1.amazonaws.com/php:first"
     volumes:
-      - /Users/rujuvajani/mycode/PHPDockerSample/:/var/www/html/
+      - /opt/app/PHPDockerSample/:/var/www/html/
